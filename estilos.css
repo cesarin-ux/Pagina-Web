@@ -1,0 +1,132 @@
+/*En esta semantica tenemos que trabajar con selectores()etiquetas del html
+,clases e identificadores */
+/* Condiciones iniciales */
+/*selector universal*/
+
+*{
+margin:0px ; /*margen*/
+padding:0px;  /*sangria */
+}
+body{
+    background-color:bisque ;
+}
+.contenedor{
+width: 95px% ;
+margin: 2px auto;
+}
+.menu{
+border: 1px silver solid;
+}
+nav ul li{
+display: inline-block;
+margin-left: 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: blue;
+font-weight: bold ;
+}
+a:hover{
+color: tomato;
+text-decoration: underline;
+}
+.principal{
+    padding: 10px 50px;
+}
+.tarjeta{
+    background: linear-gradient(to right,silver,gray);
+    border: 1px silver solid;
+    width: 25%;
+    float: left; /*flotar a la izquierda*/
+    padding: 50px;
+}
+
+.tarjeta img{
+    border-radius: 90px;
+}
+h2{
+clear: both;
+color: tomato;
+font-family: Verdana,Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+text-align: center;
+}
+h4{
+test-allign:center;
+color: white;
+
+}
+.productos{
+  float: left;
+   width: 19%;
+ border: 1px silver solid;
+ margin-left: 10px;
+}
+.centrar{
+    text-align: center;   /*alinear imagen al centro */
+    padding-top: 10px;    /*sangria superior*/
+    border-bottom: 1px silver solid;
+
+}
+ .centrar img{
+    border-radius: 100px;
+ } 
+ .botones{
+    padding:2px 40px ;
+   
+ }
+ .boton{
+    width: 40%;
+    height: 20px;
+    background-color: cadetblue;
+ }
+ .boton2{
+background-color: lightblue;
+ }
+.formulario{
+    width: 50%;
+    margin: 10px auto;
+    background: linear-gradient(to right, silver,gray);
+    border-radius: 10px;
+    padding: 20px;
+}
+.centrarFormulario{
+    width: 80%;
+    margin: 0px auto;
+}
+p{
+    margin-top: 10px;
+}
+.caja{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+}
+.boton3{
+    background-color: rgb(35, 35, 227);
+    color: white;
+    font-weight: bold;
+}
+footer{
+    text-align: right;
+    font-size: 0.8em;
+    color: black;
+}
+.empresa h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+     text-align: center;
+    color: red;
+}
+.empresa p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 10px 100px;
+}
